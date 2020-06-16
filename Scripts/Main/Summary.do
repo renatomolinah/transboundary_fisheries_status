@@ -6,8 +6,6 @@ use "/Users/renatomolina/Box Sync/GitHub/transboundary/Empirical analysis/data/W
 
 cd "/Users/renatomolina/Box Sync/GitHub/transboundary/Empirical analysis/Tables/pnas/summary";
 
-drop if year < 1990;
-
 gen eez = eez0 ;
 gen hs  = hs0;
 gen hhi = hhi0;

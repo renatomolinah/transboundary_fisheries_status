@@ -14,8 +14,6 @@ xtset id year;
 
 gen y = bio;
 
-drop if year <1990;
-
 gen space = fao;
 
 gen clust = space;

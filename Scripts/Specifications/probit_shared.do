@@ -16,8 +16,6 @@ gen y = 0;
 
 replace y = 1 if bio < 1;
 
-drop if year <1990;
-
 gen space = fao;
 
 gen clust = space;	

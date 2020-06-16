@@ -5,7 +5,7 @@ clear all
 #delimit ;
 set more off;
 
-use "~WDB.dta";
+use "~/WDB.dta";
 
 
 
@@ -15,8 +15,6 @@ use "~WDB.dta";
 xtset id year;
 
 gen y = bio;
-
-drop if year <1990;
 
 gen space = fao;
 
